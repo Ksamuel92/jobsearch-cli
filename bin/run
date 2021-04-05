@@ -1,0 +1,6 @@
+#!/usr/bin/env ruby
+
+require_relative "../lib/jobsearch/environment.rb"
+
+#API.get_data_location_fulltime("Virginia")
+CLI.new.call
